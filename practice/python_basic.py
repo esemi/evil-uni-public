@@ -121,4 +121,49 @@ WEBSITES = [
 print('benchmark', load_responses_sync(WEBSITES))
 print('processes', load_responses_async(WEBSITES))
 
+
 # -----------------------------------------
+"""
+Задача работу с __hash__
+
+Сделай так, чтобы код ниже не бросал исключение
+"""
+
+class CustomDict(dict):
+    # todo
+    pass
+
+first = CustomDict(key='first value')
+second = CustomDict(key='second value')
+
+counter_with_dict_keys = {
+    first: 3,
+    second: 103,
+}
+print(counter_with_dict_keys)
+# >>> {{'key': 'first value'}: 3, {'key': 'second value'}: 103}
+
+
+# -----------------------------------------
+"""
+Задача работу с __slots__
+
+Сделай так, чтобы код ниже не бросал исключение
+"""
+class Default:
+    pass
+
+class MemoryOptimized:
+    # todo
+    pass
+
+default = Default()
+default.key = 'value'
+
+optimized = MemoryOptimized()
+optimized.key = 'value'
+
+from sys import getsizeof
+print(getsizeof(default), getsizeof(optimized))
+# >>> 48 40
+assert getsizeof(default) > getsizeof(optimized)
