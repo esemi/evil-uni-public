@@ -25,12 +25,14 @@
 - инвалидация кэша
 - Redis vs Memcached
 
+
 ## Асинхронщина и фоновые задачи
 - когда синхрон, когда async
 - очереди vs event streaming
 - exactly-once / at-least-once
 - дедупликация задач
 - идемпотентные воркеры
+
 
 ## Надёжность и отказоустойчивость
 - retries с backoff + jitter
@@ -39,17 +41,20 @@
 - graceful degradation
 - bulkheads
 
+
 ## Observability
 - structured logs
 - метрики (RED / USE)
 - трассировка
 - алерты: когда и на что
 
+
 ## Миграции и эволюция системы
 - zero-downtime migrations
 - feature flags
 - blue/green vs canary
 - как менять схему БД без даунтайма
+
 
 ## Архитектурные подходы (DDD, TDD и т.п.)
 - не «что это», а когда применять
