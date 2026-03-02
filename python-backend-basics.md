@@ -278,3 +278,14 @@ for i in range(3):
 - не класть все pod’ы на один node
 - spread по зонам
 - Зачем anti-affinity если есть HPA?
+
+## Helm
+- что происходит при helm upgrade, и какие риски в проде?
+- возможный downtime
+- как организовать values для dev / stage / prod?
+- в чём основные проблемы Helm в больших проектах?
+
+## Terraform
+- Зачем нужен
+- Что такое Terraform state и что будет, если его потерять?
+- Чем Terraform отличается от Helm по ответственности?
