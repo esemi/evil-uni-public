@@ -125,6 +125,11 @@ for i in range(3):
 - Sync inside async — блокировка loop
 - Почему requests нельзя использовать в async коде?
 
+Напиши три небольшие программки
+1. стартует два процесса, в каждом расчёт факториала от 100
+2. стартует два треда, в каждом расчёт факториала от 100
+3. запускает две корутины, в каждой расчёт факториала от 100
+
 
 ## Юниттесты и моки
 
@@ -160,6 +165,7 @@ for i in range(3):
 - Почему приложение не ловит SIGKILL?
 
 ## Выбор БД под задачу
+- https://system-design.space/chapter/database-selection-framework
 - CAP theorem
 - OLTP vs OLAP
 - SQL vs NoSQL
@@ -280,7 +286,7 @@ for i in range(3):
 - Зачем anti-affinity если есть HPA?
 
 ## Helm
-- что происходит при helm upgrade, и какие риски в проде?
+- что происходит при helm upgrade и какие риски в проде?
 - возможный downtime
 - как организовать values для dev / stage / prod?
 - в чём основные проблемы Helm в больших проектах?
