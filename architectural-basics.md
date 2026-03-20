@@ -56,14 +56,21 @@
 - как менять схему БД без даунтайма
 
 
-## Архитектурные подходы (DDD, TDD и т.п.)
-- не «что это», а когда применять
-- DDD != везде
-
+## Архитектурные подходы (DDD + event-driven)
 1. Когда DDD — оверхед?
 2. Как bounded context ложится на микросервисы?
 3. Что делать, если бизнес-логика простая?
-4. Как TDD влияет на архитектуру?
+4. Repository на примере abstraction над storage: почему не дергать ORM напрямую?
+5. Entity vs Value Object
+6. Event vs Command: CreateOrder (command) vs OrderCreated (event)
+7. PubSub: producer не знает consumer + слабая связность системы
+8. Eventual Consistency: данные сходятся "не сразу" + между сервисами нет транзакций. Пример: пользователь создал заказ, но не видит его сразу — почему?
+9. Outbox Pattern 
+
+Ссылочки, пока работают
+- [ddd](https://vaadin.com/blog/ddd-part-1-strategic-domain-driven-design)
+- [event-driven](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
+
 
 ## Базы данных
 - OLTP vs OLAP
