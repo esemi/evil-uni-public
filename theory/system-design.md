@@ -1,5 +1,7 @@
-Топики для "архитектурного мяса"
----
+# System Design
+
+Архитектурное «мясо»: то, чем оперируешь, когда рисуешь систему на доске.
+Про сам процесс сисдиз-интервью (тайминг, C4, фрейм ответа) — см. [`interview-process.md`](interview-process.md).
 
 ## Нефункциональные требования (NFR)
 - latency / throughput
@@ -17,7 +19,7 @@
 - пагинация (offset vs cursor)
 - rate limiting / throttling
 - backward compatibility
- 
+
 
 ## Кэширование
 - где кэшировать: CDN / reverse proxy / app / DB
@@ -65,7 +67,7 @@
 6. Event vs Command: CreateOrder (command) vs OrderCreated (event)
 7. PubSub: producer не знает consumer + слабая связность системы
 8. Eventual Consistency: данные сходятся "не сразу" + между сервисами нет транзакций. Пример: пользователь создал заказ, но не видит его сразу — почему?
-9. Outbox Pattern 
+9. Outbox Pattern
 
 Ссылочки, пока работают
 - [ddd](https://vaadin.com/blog/ddd-part-1-strategic-domain-driven-design)

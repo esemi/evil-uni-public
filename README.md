@@ -9,14 +9,19 @@ ChatGPT), а потом закрепляешь руками на практич�
 
 ## Что внутри
 
-### Конспекты (теория)
+### Конспекты ([`theory/`](theory/))
+
+Сжатые конспекты тем, разбитые по разделам. Инструкция «как учить» и порядок прохождения —
+в [`theory/README.md`](theory/README.md).
 
 | Файл | О чём |
 |------|-------|
-| [`python-backend-one-day.md`](python-backend-one-day.md) | Главный чеклист тем: Python (GIL, asyncio, `__slots__`, `__hash__`, дескрипторы), БД и индексы, миграции, очереди, Docker, Kubernetes, CI/CD, большой раздел по AWS. Со ссылками и инструкцией «как учить». |
-| [`architectural-one-day.md`](architectural-one-day.md) | Архитектурное «мясо»: NFR, контракты API, кэширование, асинхронщина, надёжность, observability, DDD и event-driven, БД, очереди, k8s, облака. |
-| [`system-design-interview-basics.md`](system-design-interview-basics.md) | Как проходить system design интервью: тайминг, C4-модель, универсальный фрейм ответа, на что смотрит интервьюер. |
-| [`python-cv-skills.md`](python-cv-skills.md) | Минимальный и опциональный набор хардов для резюме питониста. |
+| [`theory/python.md`](theory/python.md) | Язык и внутренности: GIL, asyncio, `__slots__`, `__hash__`, замыкания, тесты и моки, JWT, stateless, OOM. |
+| [`theory/software-engineering.md`](theory/software-engineering.md) | Backend-инженерия: БД и индексы, миграции, дедлоки, SLA/SLO, очереди, CI/CD, линтеры, Docker, Kubernetes, Helm, Terraform, сеть. |
+| [`theory/system-design.md`](theory/system-design.md) | Архитектурное «мясо»: NFR, контракты API, кэширование, надёжность, observability, DDD и event-driven, БД, очереди, k8s, облака. |
+| [`theory/interview-process.md`](theory/interview-process.md) | Как проходить интервью: сисдиз-тайминг, C4-модель, универсальный фрейм ответа, лайвкод. |
+| [`theory/aws.md`](theory/aws.md) | Минимум по AWS для python-backend: IAM, compute, S3, RDS/DynamoDB, очереди, VPC, observability, IaC, secrets, стоимость + практика. |
+| [`theory/resume-skills.md`](theory/resume-skills.md) | Минимальный и опциональный набор хардов для резюме питониста. |
 
 ### Практика (`practice/`)
 
@@ -38,9 +43,9 @@ ChatGPT), а потом закрепляешь руками на практич�
 
 ## Как этим пользоваться
 
-1. **Оцени пробелы.** Пробегись по `python-cv-skills.md` — что из хардов уже знаешь, что нет.
-2. **Учи теорию порциями.** Открывай любой из `*-one-day.md` и иди по темам сверху вниз.
-   Метод из `python-backend-one-day.md`:
+1. **Оцени пробелы.** Пробегись по `theory/resume-skills.md` — что из хардов уже знаешь, что нет.
+2. **Учи теорию порциями.** Открывай разделы в `theory/` и иди по темам сверху вниз.
+   Метод (подробнее в `theory/README.md`):
    - задаёшь ChatGPT контекст («готовлюсь к собесу, буду присылать темы, отвечай brief-выжимкой»);
    - шлёшь каждую тему, читаешь выжимку, непонятное — просишь раскрыть глубже;
    - что осталось мутным — записываешь и потом добиваешь с ментором/по ссылкам.
@@ -48,8 +53,8 @@ ChatGPT), а потом закрепляешь руками на практич�
    - Python-темы → `python_basic.py`;
    - тесты и моки → `pytest.py` (запускай через `pytest`);
    - индексы и оптимизация запросов → `indexing.sql` (подними локальный PostgreSQL, залей песочницу, гоняй `EXPLAIN ANALYZE`).
-4. **System design и архитектура** — отдельным подходом по `system-design-interview-basics.md`
-   и `architectural-one-day.md`, лучше уже с наработанной теорией под капотом.
+4. **System design и процесс интервью** — отдельным подходом по `theory/system-design.md`
+   и `theory/interview-process.md`, лучше уже с наработанной теорией под капотом.
 
 ## Лицензия
 
