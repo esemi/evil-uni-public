@@ -18,8 +18,8 @@ ChatGPT), а потом закрепляешь руками на практич�
 |------|-------|
 | [`theory/python.md`](theory/python.md) | Язык и внутренности: GIL, asyncio, `__slots__`, `__hash__`, замыкания, тесты и моки, JWT, stateless, OOM. |
 | [`theory/software-engineering.md`](theory/software-engineering.md) | Backend-инженерия: БД и индексы, миграции, дедлоки, SLA/SLO, очереди, CI/CD, линтеры, Docker, Kubernetes, Helm, Terraform, сеть. |
-| [`theory/system-design.md`](theory/system-design.md) | Архитектурное «мясо»: NFR, контракты API, кэширование, надёжность, observability, DDD и event-driven, БД, очереди, k8s, облака. |
-| [`theory/interview-process.md`](theory/interview-process.md) | Как проходить интервью: сисдиз-тайминг, C4-модель, универсальный фрейм ответа, лайвкод. |
+| [`theory/system-design.md`](theory/system-design.md) | Архитектурное «мясо» (NFR, контракты API, кэширование, надёжность, observability, DDD, БД, очереди, k8s, облака) + процесс сисдиз-интервью: тайминг, C4, фрейм ответа. |
+| [`theory/livecode.md`](theory/livecode.md) | Лайвкод: ссылка на минимум задач для нарешивания на литкоде. |
 | [`theory/aws.md`](theory/aws.md) | Минимум по AWS для python-backend: IAM, compute, S3, RDS/DynamoDB, очереди, VPC, observability, IaC, secrets, стоимость + практика. |
 | [`theory/resume-skills.md`](theory/resume-skills.md) | Минимальный и опциональный набор хардов для резюме питониста. |
 
@@ -53,8 +53,9 @@ ChatGPT), а потом закрепляешь руками на практич�
    - Python-темы → `python_basic.py`;
    - тесты и моки → `pytest.py` (запускай через `pytest`);
    - индексы и оптимизация запросов → `indexing.sql` (подними локальный PostgreSQL, залей песочницу, гоняй `EXPLAIN ANALYZE`).
-4. **System design и процесс интервью** — отдельным подходом по `theory/system-design.md`
-   и `theory/interview-process.md`, лучше уже с наработанной теорией под капотом.
+4. **System design** — отдельным подходом по `theory/system-design.md` (там же про процесс
+   сисдиз-интервью), лучше уже с наработанной теорией под капотом. Лайвкод (`theory/livecode.md`)
+   нарешивай параллельно.
 
 ## Лицензия
 

@@ -15,15 +15,15 @@
 |------|-------|
 | [`python.md`](python.md) | Язык и его внутренности: GIL, asyncio, `__slots__`, `__hash__`, дескрипторы, замыкания, тесты и моки, JWT, stateless, OOM. |
 | [`software-engineering.md`](software-engineering.md) | Backend-инженерия: выбор БД, индексы, миграции, дедлоки, SLA/SLO, очереди, CI/CD, линтеры, Docker, Kubernetes, Helm, Terraform, сеть. |
-| [`system-design.md`](system-design.md) | Архитектурное «мясо»: NFR, контракты API, кэширование, надёжность, observability, DDD и event-driven, БД, очереди, k8s, облака. |
-| [`interview-process.md`](interview-process.md) | Как проходить интервью: сисдиз-тайминг, C4-модель, универсальный фрейм ответа, лайвкод. |
+| [`system-design.md`](system-design.md) | Архитектурное «мясо» (NFR, контракты API, кэширование, надёжность, observability, DDD, БД, очереди, k8s, облака) + как проходить сисдиз-интервью: тайминг, C4-модель, универсальный фрейм ответа. |
+| [`livecode.md`](livecode.md) | Лайвкод: ссылка на минимум задач для нарешивания на литкоде. |
 | [`aws.md`](aws.md) | Минимум по AWS для python-backend: IAM, compute, S3, RDS/DynamoDB, очереди, VPC, observability, IaC, secrets, стоимость + практика. |
 | [`resume-skills.md`](resume-skills.md) | Минимальный и опциональный набор хардов для резюме питониста. |
 
 ## Порядок прохождения
 1. **Оцени пробелы** — пробегись по [`resume-skills.md`](resume-skills.md): что из хардов уже знаешь, что нет.
 2. **Учи теорию порциями** — [`python.md`](python.md) и [`software-engineering.md`](software-engineering.md), потом [`aws.md`](aws.md). Иди по темам сверху вниз.
-3. **System design и архитектура** — [`system-design.md`](system-design.md) отдельным подходом, лучше уже с наработанной теорией под капотом.
-4. **Процесс интервью** — [`interview-process.md`](interview-process.md), чтобы не завалить тайминг и подачу на сисдизе и лайвкоде.
+3. **System design и архитектура** — [`system-design.md`](system-design.md) отдельным подходом, лучше уже с наработанной теорией под капотом (там же — про процесс сисдиз-интервью).
+4. **Лайвкод** — [`livecode.md`](livecode.md), нарешивай задачи параллельно всей подготовке.
 
 После блока теории закрепляй руками в [`../practice/`](../practice/).
