@@ -29,6 +29,13 @@ ChatGPT), а потом закрепляешь руками на практич�
 | [`practice/pytest.py`](practice/pytest.py) | Функции `example_*` (в т.ч. async-запрос по HTTP и функция с `time.sleep`) — надо написать на них тесты на `pytest`, включая моки. |
 | [`practice/indexing.sql`](practice/indexing.sql) | Песочница PostgreSQL (генерятся таблицы `employees`/`sex`) + запросы, которые нужно оптимизировать индексами. Смотри `EXPLAIN (ANALYZE)`. |
 
+### Тренажёр код-ревью ([`code-review-practice/`](code-review-practice/))
+
+Отдельный трек: задачи на навык **чтения и ревью чужого Python-кода**. 4 модуля по
+возрастанию сложности, в каждом 10 «грязных» файлов (веб-ручки, CLI, парсеры, скрипты) —
+находишь баги, потом сверяешься с эталонным разбором. Подробности — в
+[`code-review-practice/README.md`](code-review-practice/README.md).
+
 ## Как этим пользоваться
 
 1. **Оцени пробелы.** Пробегись по `python-cv-skills.md` — что из хардов уже знаешь, что нет.
