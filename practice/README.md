@@ -8,7 +8,7 @@
 
 | Блок | О чём | Теория |
 |------|-------|--------|
-| [Python](python/README.md) | Язык и внутренности: контекстные менеджеры, GIL (треды/процессы), asyncio, `__hash__`, `__slots__`, тесты и моки. | [`python.md`](../theory/python.md) |
+| [Python](python/README.md) | Язык и внутренности: по одной задаче на каждую тему теории — новинки (dataclasses, match/case, typing), мутабельность, замыкания, `__hash__`/`__slots__`, контекст-менеджеры, `__new__`, mixins/MRO, GIL, asyncio, тесты, JWT, stateless, сигналы. | [`python.md`](../theory/python.md) |
 | [Программная инженерия](software-engineering/README.md) | Backend-инженерия: индексы и оптимизация запросов в PostgreSQL (дальше — миграции, дедлоки, очереди, инфра). | [`software-engineering.md`](../theory/software-engineering.md) |
 
 Каждый блок — со своим README: список задач + пометка, каких тем из теории пока нет.
