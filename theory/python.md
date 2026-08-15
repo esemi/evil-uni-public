@@ -32,42 +32,12 @@
 - И что делать если всё таки хочется
 - Почему `dataclass(frozen=True)` автоматически хэшируемый?
 
-```python
-from collections import defaultdict
-
-class Foo(dict):
-    name: str
-
-alex = Foo()
-alex.name = 'Alex'
-
-mar = Foo()
-mar.name = 'Mar'
-
-counter: dict[Foo, int] = defaultdict(int)
-
-counter[alex] += 1
-counter[mar] += 1
-
-print(counter)
-```
-
 
 ## Область видимости и замыкания
 
 - LEGB rule
 - Замыкания и late binding
 - [nonlocal, global](https://realpython.com/python-closure/)
-
-```python
-funcs = [
-    lambda: i
-    for i in range(3)
-]
-for f in funcs:
-    print(f())
-```
-- Почему все функции вернут одно и то же?
 
 
 ## `__slots__`
