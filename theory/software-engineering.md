@@ -127,8 +127,3 @@ https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinar
 - не класть все pod’ы на один node
 - spread по зонам
 - Зачем anti-affinity если есть HPA?
-
-## Terraform
-- Зачем нужен
-- Что такое Terraform state и что будет, если его потерять?
-- Чем Terraform отличается от Helm по ответственности?
