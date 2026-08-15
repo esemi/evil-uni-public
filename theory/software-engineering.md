@@ -74,7 +74,7 @@ Backend-инженерия вокруг Python: БД и данные, надёж
 ## Линтеры — конкретика и причины выбора
 - Linters != форматирование
 - Автоматизация code review
-- Python stack (типовой senior-набор): ruff — быстрый all-in-one, black — форматирование, mypy — типы, bandit — security, vulture - stale code, WPS (суровей чем ruff)
+- Python stack (типовой senior-набор): ruff — быстрый all-in-one, black — форматирование, mypy — типы, vulture - stale code
 
 
 ## Работа с сетью
